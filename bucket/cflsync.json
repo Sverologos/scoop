@@ -1,17 +1,17 @@
 {
-    "version": "0.4.1",
+    "version": "0.4.3",
     "description": "Synchronize Confluence Cloud pages with local Markdown page directories",
-    "homepage": "https://github.com/sven-prive/cflsync",
+    "homepage": "https://github.com/sverologos/cflsync",
     "license": "MPL-2.0",
     "depends": "main/pandoc",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/sven-prive/cflsync/releases/download/v0.4.1/cflsync-0.4.1-windows-x64.zip",
-            "hash": "6b00de7d8e945624473e230423ba0b201b70f60343f8c7126d2e018952d4b6c3"
+            "url": "https://github.com/sverologos/cflsync/releases/download/v0.4.3/cflsync-0.4.3-windows-x64.zip",
+            "hash": "eb23143f2f93361b1f240b6ee36e6ae95aa00baa10336ea029f37b013de4e0d0"
         },
         "arm64": {
-            "url": "https://github.com/sven-prive/cflsync/releases/download/v0.4.1/cflsync-0.4.1-windows-arm64.zip",
-            "hash": "4d5ed61b55051265363ee51585212f746fd3361b357afef6616d83857d02fa97"
+            "url": "https://github.com/sverologos/cflsync/releases/download/v0.4.3/cflsync-0.4.3-windows-arm64.zip",
+            "hash": "7fdf6e35bf14de47ea59dc71b431d48445af52a22e4ec028f223ed0bb01ba293"
         }
     },
     "bin": [
@@ -21,15 +21,15 @@
         ]
     ],
     "checkver": {
-        "github": "https://github.com/sven-prive/cflsync"
+        "github": "https://github.com/sverologos/cflsync"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/sven-prive/cflsync/releases/download/v$version/cflsync-$version-windows-x64.zip"
+                "url": "https://github.com/sverologos/cflsync/releases/download/v$version/cflsync-$version-windows-x64.zip"
             },
             "arm64": {
-                "url": "https://github.com/sven-prive/cflsync/releases/download/v$version/cflsync-$version-windows-arm64.zip"
+                "url": "https://github.com/sverologos/cflsync/releases/download/v$version/cflsync-$version-windows-arm64.zip"
             }
         }
     }

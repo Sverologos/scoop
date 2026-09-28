@@ -5,7 +5,7 @@ Personal [Scoop](https://scoop.sh/) bucket for Windows command-line tools.
 ## Installation
 
 ```powershell
-scoop bucket add sven https://github.com/sven-prive/scoop
+scoop bucket add sverologos https://github.com/sverologos/scoop
 ```
 
 ## Available packages

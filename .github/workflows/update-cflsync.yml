@@ -30,7 +30,7 @@ jobs:
         shell: pwsh
         run: |
           # checkver reads bucket/cflsync.json's checkver.github field and
-          # queries GitHub Releases for sven-prive/cflsync. -Update substitutes
+          # queries GitHub Releases for sverologos/cflsync. -Update substitutes
           # the discovered version into autoupdate URLs and refreshes hashes.
           $checkver = Join-Path $env:USERPROFILE "scoop\apps\scoop\current\bin\checkver.ps1"
           & $checkver cflsync "$env:GITHUB_WORKSPACE\bucket" -Update
