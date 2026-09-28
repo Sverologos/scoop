@@ -1,6 +1,6 @@
-# Sven's Scoop bucket
+# Sverologo's Scoop bucket
 
-Personal [Scoop](https://scoop.sh/) bucket for Windows command-line tools.
+[Scoop](https://scoop.sh/) bucket for Windows command-line tools.
 
 ## Installation
 
