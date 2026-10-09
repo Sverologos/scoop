@@ -1,17 +1,17 @@
 {
-    "version": "0.5.8",
+    "version": "0.5.9",
     "description": "Synchronize Confluence Cloud pages with local Markdown page directories",
     "homepage": "https://github.com/sverologos/cflsync",
     "license": "MPL-2.0",
     "depends": "main/pandoc",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/sverologos/cflsync/releases/download/v0.5.8/cflsync-0.5.8-windows-x64.zip",
-            "hash": "d00af05a3364463906bfdd943031638c21a3338d7c24df6684f80e1d0465d4ac"
+            "url": "https://github.com/sverologos/cflsync/releases/download/v0.5.9/cflsync-0.5.9-windows-x64.zip",
+            "hash": "ed8ab26bbfd24038fcde5d3a90bc43808778a4e2cc8aa1d2cf347ea2a2d9059d"
         },
         "arm64": {
-            "url": "https://github.com/sverologos/cflsync/releases/download/v0.5.8/cflsync-0.5.8-windows-arm64.zip",
-            "hash": "5b59f2077ab74da5a87aa04c68cb7cd5ffc00bed2fcff83cc992aaa4a788c530"
+            "url": "https://github.com/sverologos/cflsync/releases/download/v0.5.9/cflsync-0.5.9-windows-arm64.zip",
+            "hash": "0371de5b843da224ff90118ee9cc1e9d18f9e66f3dfbfbc6c2c8b328cd190984"
         }
     },
     "bin": [
